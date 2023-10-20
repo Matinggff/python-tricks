@@ -6,7 +6,7 @@ def is_prime(num):
             return False
     return True
 
-N = 50  
+N = 50  #desired number
 prime_numbers = [num for num in range(2, N + 1) if is_prime(num)]
 
 print("number 1 to", N, ":", prime_numbers)
